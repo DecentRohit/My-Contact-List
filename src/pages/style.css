@@ -1,0 +1,150 @@
+.list {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 30px;
+  }
+  .submit-button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+  
+  /* Styling the button on hover */
+  .submit-button:hover {
+    background-color: #45a049; /* Darker green */
+  }
+  
+  /* Styling the button on focus */
+  .submit-button:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #ffffff, 0 0 0 4px #4CAF50; /* White outline and green border */
+  }
+  
+  /* Styling the button when disabled */
+  .submit-button:disabled {
+    background-color: #cccccc; /* Light gray */
+    cursor: not-allowed;
+  }
+  
+  /* Styling the button on hover when disabled */
+  .submit-button:disabled:hover {
+    background-color: #cccccc; /* Light gray */
+  }
+  /* style.css */
+
+.list {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.list img {
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+}
+
+.list h5 {
+  margin: 0;
+}
+
+.list h5:first-child {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.list h5:nth-child(2)::before {
+  content: "Name: ";
+  font-weight: bold;
+}
+
+.list h5:nth-child(3)::before {
+  content: "Email: ";
+  font-weight: bold;
+}
+.list h5:nth-child(4)::before {
+  content: "Phone: ";
+  font-weight: bold;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 16px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.alert {
+  background-color: #f8d7da;
+  color: #721c24;
+  padding: .75rem 1.25rem;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+}
+.form-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.form-container form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-container form button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form-container form button:hover {
+  background-color: #0056b3;
+}
+.delete-button {
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.delete-button:hover {
+  background-color: darkred;
+}
